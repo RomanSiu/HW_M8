@@ -3,10 +3,6 @@ from collections import defaultdict
 
 def get_birthdays_per_week(users):
     dict_with_days = defaultdict(list)
-    
-    if not users:
-        print("There is empty list!")
-        exit
         
     today = date.today()
     
